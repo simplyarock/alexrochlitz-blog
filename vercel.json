@@ -1,0 +1,25 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": "public",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/blog",
+      "destination": "/writing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/",
+      "destination": "/writing/",
+      "permanent": true
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/assets/favicon.svg",
+      "permanent": true
+    }
+  ]
+}
